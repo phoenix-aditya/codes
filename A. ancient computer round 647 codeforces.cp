@@ -13,7 +13,7 @@ void solve()
     cin>>a>>b;
     
     // this is not working comparison
-    if(a=b)
+    if(a==b)
         cout<<0<<endl;
     
     else if(a>b && a%b!=0)
