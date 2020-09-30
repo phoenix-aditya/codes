@@ -18,7 +18,9 @@ void solve()
     {
             answer=answer+s[i];
     }
-    cout<<answer<<endl;
+    
+    // uncomment the comment
+    // cout<<answer<<endl;
     
 }
 
