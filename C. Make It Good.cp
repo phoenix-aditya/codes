@@ -7,6 +7,7 @@
 #define f(i,a,b) for(int i=a;i<b;i++)
 using namespace std;
 #include<string.h>
+//you can correct code at 36 line
 
 //aditya ranaut- phoenix_aditya
 

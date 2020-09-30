@@ -20,7 +20,7 @@ void solve()
         cin>>arr[i];
     
     // this is not working
-    rvrse(arr, arr+n);
+    reverse(arr, arr+n);
     
     for(int i=0;i<n;i++)
         cout<<arr[i]<<" ";

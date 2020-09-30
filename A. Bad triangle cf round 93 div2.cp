@@ -10,7 +10,7 @@ using namespace std;
 
 //aditya ranaut- phoenix_aditya
 
-const int mxn=1e4+4;
+const int mxn=1e4+4;// this is correct
 int arr[5*mxn];
 
 void solve()
@@ -19,8 +19,9 @@ void solve()
     cin>>n;
     
     // this array input not working
+
     f(i,0,n)
-    cin>>arr(i);
+    cin>>arr[i];
     
    if(arr[0]+arr[1]<=arr[n-1])
        cout<<1<<" "<<2<<" "<<n<<endl;
