@@ -6,7 +6,6 @@
 using namespace std;
 #include<string.h>
 void solve()
-    //this might work
 {
     long long answer;
     long double a, b, c, d,n;
@@ -29,8 +28,6 @@ void solve()
     {return;}
 }
 
-
-// this main function is not working
 int main()
 {
     wh(t)
