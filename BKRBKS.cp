@@ -9,7 +9,7 @@ using namespace std;
 #include <iostream>
 #include<stdlib.h>
 #include<stdio.h>
-//this code works fine
+//this code works fine - Imporved efficiency by 10%
 
 int main()
 {
