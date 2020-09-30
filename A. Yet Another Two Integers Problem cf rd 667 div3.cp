@@ -8,7 +8,7 @@
 using namespace std;
 
 // this header not working
-#include<string>
+#include<string.h>
 
 //aditya ranaut- phoenix_aditya
 
