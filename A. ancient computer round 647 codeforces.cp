@@ -6,12 +6,14 @@
 #define endl "\n"
 using namespace std;
 #include<string.h>
+
 void solve()
 {
     ll a,b;
     cin>>a>>b;
     
-    if(a==b)
+    // this is not working comparison
+    if(a=b)
         cout<<0<<endl;
     
     else if(a>b && a%b!=0)
