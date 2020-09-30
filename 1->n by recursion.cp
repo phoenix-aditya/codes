@@ -21,7 +21,7 @@ void print(int n)
     print(n-1);
     cout<<n<<" ";
 }
-
+// Main function 
 int main()
 {
     print(7);
