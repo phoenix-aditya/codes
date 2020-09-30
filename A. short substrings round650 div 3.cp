@@ -26,6 +26,7 @@ void solve()
 
 int main()
 {
+    // remove speed line
     speed;
     wh(t)
      {solve();}
