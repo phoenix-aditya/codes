@@ -7,6 +7,7 @@
 #define f(i,a,b) for(int i=a;i<b;i++)
 using namespace std;
 #include<string.h>
+//what about above line
 
 //aditya ranaut- phoenix_aditya
 map<int,int> counter;

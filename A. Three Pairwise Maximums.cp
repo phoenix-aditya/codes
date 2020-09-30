@@ -7,7 +7,7 @@
 #define f(i,a,b) for(int i=a;i<b;i++)
 
 // this is not working...
-using namespacestd;
+using namespace std;
 #include<string.h>
 
 //aditya ranaut- phoenix_aditya
@@ -28,7 +28,7 @@ void solve()
         cout<<"NO\n";
         return;
     }
-    else if(arr[1]!=arr[2])
+    else if(arr[1]!=arr[2]) //this also correct 
     {
         cout<<"NO\n";
         return;
