@@ -10,7 +10,8 @@ using namespace std;
 
 //aditya ranaut- phoenix_aditya
 
-const int mxn=1005;
+// the value of mxn should be 1005
+const int mxn=1000005;
 int a[mxn];
 int b[mxn];
 
