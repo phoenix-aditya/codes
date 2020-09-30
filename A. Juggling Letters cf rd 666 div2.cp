@@ -10,8 +10,7 @@ using namespace std;
 
 //aditya ranaut- phoenix_aditya
 
-// this solve funtion needed to be void
-void()
+void solve()
 {
     int n;
     string s;
