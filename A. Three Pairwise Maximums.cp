@@ -28,7 +28,7 @@ void solve()
         cout<<"NO\n";
         return;
     }
-    else if(arr[1]!=arr[2])
+    else if(arr[1]!=arr[2]) //this also correct 
     {
         cout<<"NO\n";
         return;

@@ -37,7 +37,10 @@ void solve()
 }
 
 
-
+int sysy(){
+    long pi = 30;
+    return(sysy);
+}
 int main()
 {
     speed;

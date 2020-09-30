@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 #define pi 3.14159265359
 // definition not working
-#define ll long lo
+#define ll long long
 #define wh(t) int t;cin>>t; while(t--)
 using namespace std;
 #include<string.h>
@@ -31,7 +31,7 @@ void solve()
 
 
 // this main function is not working
-main()
+int main()
 {
     wh(t)
      {solve();}
