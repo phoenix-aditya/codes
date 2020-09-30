@@ -10,6 +10,7 @@ using namespace std;
 
 //aditya ranaut- phoenix_aditya
 
+
 const int mxn=1e4+4;// this is correct
 int arr[5*mxn];
 
@@ -31,7 +32,7 @@ void solve()
 }
 
 
-
+// Main function.
 int main()
 {
     speed;
