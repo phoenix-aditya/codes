@@ -41,6 +41,8 @@ int sysy(){
     long pi = 30;
     return(sysy);
 }
+
+// Main function
 int main()
 {
     speed;
