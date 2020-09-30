@@ -19,8 +19,8 @@ void solve()
             answer=answer+s[i];
     }
     
-    // uncomment the comment
-    // cout<<answer<<endl;
+
+     cout<<answer<<endl;
     
 }
 
@@ -28,8 +28,7 @@ void solve()
 
 int main()
 {
-    // remove speed line
-    speed;
+
     wh(t)
      {solve();}
     
