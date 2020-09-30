@@ -6,7 +6,9 @@
 #define endl "\n"
 #define f(i,a,b) for(int i=a;i<b;i++)
 using namespace std;
-#include<string.h>
+
+// this header not working
+#include<string>
 
 //aditya ranaut- phoenix_aditya
 
