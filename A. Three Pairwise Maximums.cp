@@ -7,7 +7,7 @@
 #define f(i,a,b) for(int i=a;i<b;i++)
 
 // this is not working...
-using namespacestd;
+using namespace std;
 #include<string.h>
 
 //aditya ranaut- phoenix_aditya
