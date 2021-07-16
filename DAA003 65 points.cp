@@ -18,9 +18,6 @@ int direction[mxn*mxn][9];
 bool vis[mxn*mxn+3]={0};
 
 void recur(int i, int j, int m, int n, vector<int> path){
-    //cout<<i<<" "<<j<<endl;
-    
-    
     if(i==0 && j==0){
         path.push_back(arr[i][j]);
         if(ans.find(1)==ans.end())
@@ -66,33 +63,27 @@ void recur(int i, int j, int m, int n, vector<int> path){
     path.push_back(arr[i][j]);
     vis[arr[i][j]]=true;
     
-    if(direction[arr[i][j]][1]==1){//cout<<arr[i][j]<<"->";
+    if(direction[arr[i][j]][1]==1){
         recur(i-1, j, m, n, path);
     }
     if(direction[arr[i][j]][3]==1){
         recur(i, j+1, m, n, path);
     }
     if(direction[arr[i][j]][5]==1){
-      //  cout<<arr[i][j]<<"->";
         recur(i+1, j, m, n, path);
     }
     if(direction[arr[i][j]][7]==1){
-       // cout<<arr[i][j]<<"->";
         recur(i, j-1, m, n, path);
     }
-    if(direction[arr[i][j]][2]==1){//cout<<arr[i][j]<<"->";
         recur(i-1, j+1, m, n, path);
     }
     if(direction[arr[i][j]][4]==1){
-        //cout<<arr[i][j]<<"->";
         recur(i+1, j+1, m, n, path);
     }
     if(direction[arr[i][j]][6]==1){
-       // cout<<arr[i][j]<<"->";
         recur(i+1, j-1, m, n, path);
     }
     if(direction[arr[i][j]][8]==1){
-       // cout<<arr[i][j]<<"->";
         recur(i-1, j-1, m, n, path);
     }
     
@@ -116,11 +107,6 @@ void solve()
             }
         }
     }
-//    f(i,0,m){
-//        f(j,0,n){
-//            cout<<arr[i][j]<<" ";
-//        }cout<<endl;
-//    }
     for(int i=0;i<m*n;i++){
         int temp;
         cin>>temp;
@@ -128,25 +114,17 @@ void solve()
             cin>>direction[temp][j];
         }
     }
-//    for(int i=0;i<m*n;i++){
-//        for(int j=0;j<9;j++){
-//            cout<<direction[i][j]<<" ";
-//        }cout<<endl;
-//    }
     vector<int> paths;
     vector<bool> vis(n*m+3, 0);
     
     recur(starti, startj, m, n, paths);
     
-   // cout<<ans.size()<<endl;
     for(int i=1;i<=4;i++){
         for(auto x: ans[i])
             cout<<x<<" ";
         cout<<endl;
     }
 }
-
-
 
 int main()
 {
@@ -155,3 +133,5 @@ int main()
     
     return 0;
 }
+
+
