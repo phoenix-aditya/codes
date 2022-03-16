@@ -4,6 +4,8 @@
 using namespace std;
 
 
+
+
 void solve()
 {
 	int n,x;
